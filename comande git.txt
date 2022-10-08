@@ -1,0 +1,29 @@
+git init (pour initialiser il faut toujours le faire
+
+git config --global user.name 'Franck729' (pour s'identifier avec le nom
+
+git config --global user.email 'etoufranckephrem@gmail.com' (pour s'identifier avec lemail
+
+git add index.html (ajoute le fichier a la liste des elements a sauvegarder
+
+git statut (pour voir tous les fichiers ajouter à cette sauvegarde
+
+git rm --cached index.html (ppour supprimer le fichier de la sauvegarde
+
+git add . (pour ajouter tous les fichiers a la sauvegarde
+
+git rm -r --cached . (pour enlever tous les fichiers recursivement de notre document
+
+git checkout -- . (retourner a la sauvegarde precedente
+
+git commit -m 'changement...'(pour sauvegarder notre fichier
+
+touch .gitignore (pour mettre les noms de fichiers a ignorer lors des sauvegardes, ajout...
+
+sur github (pour creer un repertoire qui va contenir notre projet
+
+git push (mettre tout nos changements sur github
+
+git pull (pour mettre a jour les differents changements qui ont eu lieu dernierement
+
+git clone lien (pour telecharger le repositoryen cas de perte du fichier sur pc

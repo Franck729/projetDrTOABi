@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ::after,
 ::before,
 * {
@@ -39,10 +40,52 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+=======
+::after,::before,*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family:'MessinaSans-Book' ;
+    src: url('../Font/MessinaSans-Book.ttf');
+}
+body{
+    font-family:'MessinaSans-Book' ;
+    height: 80%;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    /* background: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+}
+.principale{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    color: white;
+    box-shadow:0 15px 25px rgba(0, 0,0,.5);
+    background-color: #e2881b;
+    overflow: hidden;
+    
+    /* transform: translate(35%, 50%); */
+}
+.twin{
+    background: linear-gradient(120deg,#379eff 0%,#1e65ff 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.principale h1{
+    background-color: rgba(42, 42, 228, 0.886);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+>>>>>>> e2523d8e663357fd55badfdff8ab1c41bb58a6d0
 }
 /* table,thead,tbody,tr{
     text-align: center;
 } */
+<<<<<<< HEAD
 
 .card {
   display: grid;
@@ -57,4 +100,10 @@ body {
 .card p {
   height: 50px;
   text-align: center;
+=======
+tr{
+    display: flex;
+    gap: 100px;
+    height: 40px;
+>>>>>>> e2523d8e663357fd55badfdff8ab1c41bb58a6d0
 }
